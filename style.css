@@ -38,12 +38,21 @@ picture {
 }
 
 /* Caption responsively fills picture tag, aligned bottom, controls color */
-.caption {
+.caption-1 {
     position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
     background-color: #8CF;
+}
+
+.caption-2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #8CF;
+    border-bottom: 1px solid azure;
 }
 
 /* --------------------
